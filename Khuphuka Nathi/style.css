@@ -1,0 +1,177 @@
+/* BODY */
+body {
+    background-color: #f5f0e6; /* cream */
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* LOGO IMAGE */
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: black;
+    margin-top: 20px;
+}
+
+/* MOTTO */
+.Motto {
+    font-style: italic;
+    color: #333333;
+    font-size: 18px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: black;
+    padding: 15px;
+}
+div :hover {background-color: #f5f0e6;}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5f0e6; /* cream */
+}
+
+/* CONTAINER BOX */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* PARAGRAPHS */
+p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    padding: 10px;
+    font-size: 14pt;
+} 
+/* Responsive image*/
+.responsiveimg{
+  max-width: 100%;
+  height: auto;
+}
+/* FORMS */
+form {
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* INPUT FIELDS */
+input,
+textarea,
+select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* BUTTON */
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.copyright {
+    margin: 0;
+}
+
+/* MAP */
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color:#f5f0e6;
+  }
+  h1 {
+    font-size: 26pt;
+
+  }
+  nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f5f0e6; /* cream */
+}
+
+}
